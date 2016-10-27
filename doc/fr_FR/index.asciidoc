@@ -1,0 +1,26 @@
+:icons:
+== ssaOrvibo allOne
+
+=== Description
+
+include::description.asciidoc[]
+
+'''
+=== Installation
+'''
+include::installation.asciidoc[]
+
+'''
+=== Configuration
+'''
+include::configuration.asciidoc[]
+
+'''
+=== FAQ
+'''
+include::faq.asciidoc[]
+
+'''
+=== Devellopeur
+'''
+include::dev.asciidoc[]
