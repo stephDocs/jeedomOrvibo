@@ -21,6 +21,6 @@ include::configuration.asciidoc[]
 include::faq.asciidoc[]
 
 '''
-=== Devellopeur
+=== Developeur
 '''
 include::dev.asciidoc[]
