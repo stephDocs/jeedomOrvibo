@@ -2,6 +2,15 @@ gems:
   - jekyll-asciidoc
   - jekyll-assets
 
+title: ssaOrvibo 
+description: documentation du plugin ssaOrvibo.
+url: jeedom 
+google_analytics_key:
+
+collections:
+  documentation:
+    title: doc
+    position: 1
 asciidoctor:
   base_dir: :docdir
   safe: unsafe
