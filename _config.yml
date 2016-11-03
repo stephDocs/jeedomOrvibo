@@ -1,2 +1,34 @@
 gems:
   - jekyll-asciidoc
+  - jekyll-assets
+
+asciidoctor:
+  base_dir: :docdir
+  safe: unsafe
+  attributes:
+    imagesdir: /doc/images
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
