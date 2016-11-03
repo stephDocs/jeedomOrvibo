@@ -1,3 +1,4 @@
+:imagesdir: ../images
 
 Pour etre reconu par le plugin, le AllOne doit déjà etre configuré sur votre réseau wifi.
 
@@ -7,7 +8,7 @@ voici comment procéder :
 Il faut se rendre sur le PlayStore ou l’Appstore afin de télécharger l’application Wiwo nécessaire à l’utilisation du AllOne.
 Il faudra taper Wiwo puis télécharger l’application.
 
-image::../images/wiwo.jpg[]
+image::wiwo.jpg[]
 
 ==== Aller sur la page "Ap Configuration"
 
