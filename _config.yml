@@ -6,7 +6,7 @@ asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
-    imagesdir: /doc/images
+    imagesdir: /jeedomOrvibo/doc/images
 
 
 
