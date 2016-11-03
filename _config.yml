@@ -1,6 +1,7 @@
 gems:
   - jekyll-asciidoc
   - jekyll-assets
+  - jekyll-seo-tag
 
 title: ssaOrvibo 
 description: documentation du plugin ssaOrvibo.
