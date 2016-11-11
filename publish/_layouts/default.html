@@ -1,3 +1,6 @@
+---
+:toc: left
+---
 <!doctype html>
 <!--[if IE 9]>
 <html class="lt-ie10" lang="en"> <![endif]-->
@@ -13,8 +16,14 @@
     <link rel="stylesheet" href="{{page.root}}css/font-awesome.css">
     <link rel="stylesheet" href="{{page.root}}css/coderay.css">
     <link rel="stylesheet" href="{{page.root}}css/asciidoctor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <script src="{{page.root}}js/vendor/jquery.js"></script>
     <script src="{{page.root}}js/vendor/modernizr.js"></script>
     <script src="{{page.root}}js/toc.js"></script>
+    <script src="{{page.root}}js/float-panel.js"></script>
+
+
 </head>
 <body>
 
@@ -52,20 +61,33 @@
 
     <aside class="large-3 columns">
 
-        <h4>Posts</h4>
-        <ul id="posts" class="posts nav">
-            {% for post in site.posts limit: 5 %}
-            <li><a href=".{{ post.url }}">{{ post.navtitle }}</a></li>
-            {% endfor %}
-        </ul>
+        <h4>Stéphane SAUTRON</h4>
+       
+      
+     
+    
+   
 
+        
         <div class="panel">
-            <h5>Featured</h5>
+            <h5>Orvibo allOne </h5>
 
-            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon
-                nulla pork belly cupidatat meatloaf cow.</p>
+            <p> Ce Plugin permet de gerer les Orvibo allOne</p>
+           
+        </div>
+        <div  class="panel">
+            
+            <p>
+            <div   class="toc"></div>
+            </p>
+            
         </div>
 
+        <div class="panel">
+            <h5>Don paypal </h5>
+
+            <p>J'accepte les dons sur <a href="https://www.paypal.me/stephanesautron">paypal</a> </p>
+        </div>
     </aside>
 
     <!-- End Sidebar -->
@@ -81,18 +103,21 @@
         <hr>
         <div class="row">
             <div class="large-12 columns">
-                <p>Footer</p>
+                <p></p>
             </div>
         </div>
     </div>
 </footer>
 
-<script src="{{page.root}}js/vendor/jquery.js"></script>
-<script src="{{page.root}}js/foundation.min.js"></script>
+
 <script>
-$(document).foundation();
-var doc = document.documentElement;
-doc.setAttribute('data-useragent', navigator.userAgent);
+
+$('.toc').toc({ title: '<h5>Menu</h5>',
+                headers: 'h1, h2',
+                showEffect: 'slideDown' 
+             });
+
+
 </script>
 </body>
 </html>
