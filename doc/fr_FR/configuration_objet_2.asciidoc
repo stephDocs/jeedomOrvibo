@@ -1,4 +1,12 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  guide
+:page-liquid:
+:icons:
 :imagesdir: ../images
+== Configuration d'un objet : etape 2
+'''
 La deuxieme étapes de configuration consite en l'ajout des commandes de votre Orvibo.
 Pour cela cliquez sur le bouton "ajouter une commande"
 

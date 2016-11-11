@@ -1,4 +1,12 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  guide
+:page-liquid:
+:icons:
 :imagesdir: ../images
+== Configuration d'un objet : etape 1
+'''
 La configuration des Equipements tableau est accessible a partir du menu plugin :
 il vous suffit de cliquer sur le bouton "ajouter"
 
