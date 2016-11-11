@@ -1,17 +1,18 @@
 gems:
   - jekyll-asciidoc
   - jekyll-assets
-  - jekyll-seo-tag
-
-title: ssaOrvibo 
-description: documentation du plugin ssaOrvibo.
-url: jeedom 
-google_analytics_key:
+  - jekyll-paginate 
 
 
+title: ssaOrvibo
+description: documentation du plugin Orvibo.
+url: jeedom.com
 
 
-
+source: run
+destination: _site
+exclude:
+  - index.html
 
 
 
@@ -19,7 +20,13 @@ asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
-    imagesdir: /jeedomOrvibo/doc/images
+    - icons=font
+    - imagesdir=images
+
+
+
+
+
 
 
 
